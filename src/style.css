@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body{
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 /*
  * react-circular-progressbar styles
@@ -23,7 +25,6 @@ body{
 }
 
 .CircularProgressbar .CircularProgressbar-path {
-  stroke: #7367F0;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s ease 0s;
 }
