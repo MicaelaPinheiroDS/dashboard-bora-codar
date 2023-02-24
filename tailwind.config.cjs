@@ -12,7 +12,9 @@ module.exports = {
       'background-card-color': '#363447',
       'green': '#81FBB8',
       'gray-eilipse': '#D9D9D9',
-      'purple': '#7367F0'
+      'purple': '#7367F0',
+      'dark-purple': '#4A4556',
+      'origen': '#DF9780',
     },
     extend: {
       boxShadow: {
