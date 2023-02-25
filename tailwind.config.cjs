@@ -14,7 +14,7 @@ module.exports = {
       'gray-eilipse': '#D9D9D9',
       'purple': '#7367F0',
       'dark-purple': '#4A4556',
-      'origen': '#DF9780',
+      'orange': '#DF9780',
     },
     extend: {
       boxShadow: {
