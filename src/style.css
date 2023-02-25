@@ -4,7 +4,29 @@
 
 body{
   font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
+  overflow: overlay;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+  opacity: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d94d;
+  opacity: .1;
+  border-radius: 9999px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d95e;
 }
 /*
  * react-circular-progressbar styles
