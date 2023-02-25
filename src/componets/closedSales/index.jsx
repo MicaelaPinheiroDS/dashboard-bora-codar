@@ -12,7 +12,7 @@ export function ClosedSales() {
                         <div className="text-base  leading-[160%]">alcançada</div>
                     </CircularProgressbarWithChildren>
                 </div>
-                <div className="flex gap-5 text-[14px]">
+                <div className="flex flex-col items-center sm:flex-row gap-5 text-[14px]">
                     <div className="flex items-center">
                         <span className="inline-block w-[15px] h-[15px] mr-1 bg-dark-purple rounded-full"></span>
                         <span className="font-medium">Esperado</span>
