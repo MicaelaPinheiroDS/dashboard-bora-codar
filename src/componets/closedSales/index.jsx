@@ -29,7 +29,7 @@ export function ClosedSales() {
     }
     return (
         <div>
-            <Card title='Vendas fechadas' textAlign={'center'} elementChildren={cardChildren()} />
+            <Card title='Vendas fechadas' textAlign={'center'} width={'w-full'} paddingInline={'px-12'} elementChildren={cardChildren()} />
         </div>
     )
 }

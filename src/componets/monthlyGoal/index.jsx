@@ -5,7 +5,7 @@ export function MonthlyGoal() {
     function cardChildren(){
         const valueProgress = 90
         return (
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-8 w-full">
                 <div className="m-auto">
                     <CircularProgressbarWithChildren className='max-w-{197px} max-h-[197px] stroke-orange' value={valueProgress} strokeWidth={15}>
                         <div className='text-[34px] leading-[160%] font-bold'>{valueProgress}%</div>
@@ -17,20 +17,18 @@ export function MonthlyGoal() {
                     <div className="flex">
                         <span className="inline-block w-[15px] h-[15px] mr-1 bg-dark-purple rounded-full"></span>
                         <span className="font-medium">Esperado</span>
-                        <span className="pl-[10px]">100</span> 
+                        <span className="pl-[10px]">R$ 70K</span> 
                     </div>
                     <div className="flex items-center">
                         <span className="inline-block w-[15px] h-[15px] mr-1 bg-orange rounded-full"></span>
                         <span className="font-medium">Alcandado</span>
-                        <span className="pl-[10px]">{valueProgress}</span> 
+                        <span className="pl-[10px]">R$ 63K</span> 
                     </div>
                 </div>
             </div>
         )
     }
     return (
-        <div>
-            <Card title='Metal mensal' textAlign={'center'} elementChildren={cardChildren()}/>
-        </div>
+            <Card title='Metal mensal' textAlign={'center'} width={'w-full'} paddingInline={'px-12'} elementChildren={cardChildren()}/>
     )
 }

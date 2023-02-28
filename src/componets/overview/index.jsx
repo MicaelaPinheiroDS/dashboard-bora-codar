@@ -12,6 +12,6 @@ export function Overview(){
         )
     }
     return (
-        <Card title='NPS geral' textAlign={'center'} elementChildren={cardChildren()}/>
+        <Card title='NPS geral' textAlign={'center'}  width={'w-fit'} paddingInline={'px-[87px]'} elementChildren={cardChildren()}/>
     )
 }

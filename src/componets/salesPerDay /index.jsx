@@ -48,8 +48,6 @@ export function SalesPerDay() {
         )
     }
     return(
-        <div>
-            <Card title='vendas por dia da semana' textAlign={'left'} elementChildren={cardChildren()} />
-        </div>
+        <Card title='vendas por dia da semana' textAlign={'left'} width={'w-full'} paddingInline={'px-12'} elementChildren={cardChildren()} />
     )
 }
