@@ -9,7 +9,7 @@
 <br>
 <p align="center">
     <a href="https://skillicons.dev">
-       <img style="height:32px" src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,vite,vercel" />
+       <img style="height:32px" src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,vite,vercel,figma" />
     </a>
 </p>
 <br>
@@ -28,7 +28,19 @@ Bora cuidar é um projeto da [Rocketseat](https://www.rocketseat.com.br/boracoda
 
 Este bora codar é um dashboard de gestão de vendas onde temos percentual de vendas fechadas alcançada e esperado, metal mensal também em percentual com esperado e alcançada é por fim um card que mostra vendas por dia da semana, onde mostra na primeira seção em texto o dia que mais vendeu no mês referido é também o dia que menos vendeu. em uma segunda seção este mesmo card mostra as vendas por dia da semana em gráfico de barra este mesmo mês.
 
-<br> 
+## Observações
+Não foi possível fazer os gráficos circulares com "gradient" usando [react-circular-progressbar](https://www.npmjs.com/package/react-circular-progressbar) por uma limitação minha mesmo, futuramente será implementado.
+
+<br>
+<p style="display:flex; align-items: center; gap: 8px">
+    <a href="https://skillicons.dev">
+       <img style="height:28px" src="https://skillicons.dev/icons?i=figma" />
+    </a>
+    <a href="https://www.figma.com/community/file/1210217615683203825">Link do projeto no figma</a>
+</p>
+
+<br>  
+
 
 ## Tecnologias Usadas
 
