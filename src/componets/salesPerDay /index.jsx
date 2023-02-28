@@ -24,13 +24,13 @@ export function SalesPerDay() {
                     <div className="flex flex-col gap-8">
                         <div>
                             <div className="flex gap-2 items-center">
-                                <span className="bg-[url(./public/images/arrow-up.svg)] bg-no-repeat bg-center w-[15px] h-[15px]"></span><span>Dia com mais vendas</span>
+                                <span className="bg-arrow-up bg-no-repeat bg-center w-[15px] h-[15px]"></span><span>Dia com mais vendas</span>
                             </div>
                             <div className="text-[24px] leading-[38.4px] font-medium">quarta-feira</div>
                         </div>
                         <div>
                             <div className="flex gap-2 items-center">
-                                <span className="bg-[url(./public/images/arrow-down.svg)] bg-no-repeat bg-center w-[15px] h-[15px]"></span><span>Dia com menos vendas</span>
+                                <span className="bg-arrow-down bg-no-repeat bg-center w-[15px] h-[15px]"></span><span>Dia com menos vendas</span>
                             </div>
                             <div className="text-[24px] leading-[38.4px] font-medium">domingo</div>
                         </div>
