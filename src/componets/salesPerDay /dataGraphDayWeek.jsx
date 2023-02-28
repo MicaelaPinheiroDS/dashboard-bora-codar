@@ -1,4 +1,3 @@
-const valueFix = '15px'  
 export const  dataGraphDayWeek = [
     {
         day: 'dom',

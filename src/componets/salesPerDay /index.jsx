@@ -20,8 +20,8 @@ export function SalesPerDay() {
             )
         })
         return(
-            <div className="lg:flex lg:justify-between w-full">
-                <div className="flex flex-col lg:flex-row gap-8">
+            <div className="flex flex-col lg:flex-row lg:justify-between gap-8">
+                <div className="flex gap-8">
                     <div className="flex flex-col gap-8">
                         <div>
                             <div className="flex gap-2 items-center">
@@ -30,7 +30,7 @@ export function SalesPerDay() {
                             <div className="text-[24px] leading-[38.4px] font-medium">quarta-feira</div>
                         </div>
                         <div>
-                            <div className="flex gap-1 items-center">
+                            <div className="flex gap-2 items-center">
                                 <span className="bg-[url(./public/images/arrow-down.svg)] bg-no-repeat bg-center w-[15px] h-[15px]"></span><span>Dia com menos vendas</span>
                             </div>
                             <div className="text-[24px] leading-[38.4px] font-medium">domingo</div>
@@ -38,7 +38,7 @@ export function SalesPerDay() {
                     </div>
                     
                 </div>
-                <div className="relative lg:flex lg:items-end">
+                <div className="relative">
                     <div className="w-[3px] lg:w-full h-full lg:h-[3px] rounded-full bg-dark-purple absolute left-[92px] bottom-0 lg:bottom-[92px] lg:left-0 z-1"></div>
                     <div className="flex flex-col lg:flex-row gap-[62.5px] relative z-10 pb-[17px]">
                         {itemGraph}
@@ -50,7 +50,7 @@ export function SalesPerDay() {
     }
     return(
         <div>
-            <Card title='vendas por dia da semana' elementChildren={cardChildren()} />
+            <Card title='vendas por dia da semana' textAlign={'left'} elementChildren={cardChildren()} />
         </div>
     )
 }
