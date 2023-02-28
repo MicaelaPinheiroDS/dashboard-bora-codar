@@ -18,7 +18,7 @@
 </p>
 <br>
 
-## Sobre Este Bora Codar
+## Sobre o Bora Codar
 
 Bora cuidar é um projeto da [Rocketseat](https://www.rocketseat.com.br/boracodar), onde semanalmente é lançado desafios para comunidade, a fim de praticar nossa hard skill, onde é fornecido apenas o layout do projeto, de forma que ficamos libre que fazê-lo como quisermos, podendo usar qualquer tecnologias, adicionar funcionalidade novas, melhorar o layout etc.
 
