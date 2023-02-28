@@ -4,7 +4,6 @@ import { dataGraphDayWeek } from "./dataGraphDayWeek";
 export function SalesPerDay() {
     function cardChildren() {
         const itemGraph = dataGraphDayWeek.map(data => {
-            console.log(data)
             return (
                 <div className="flex gap-[5px] lg:flex-col-reverse items-center" key={data.day}>
                     <span>{data.day}</span>
