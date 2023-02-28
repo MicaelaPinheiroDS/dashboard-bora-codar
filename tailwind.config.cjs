@@ -24,8 +24,8 @@ module.exports = {
         'lg': '1120px'
       },
       backgroundImage: {
-        'arrow-down': 'url(./images/arrow-down.svg)',
-        'arrow-up': 'url(./images/arrow-up.svg)'
+        'arrow-down': "url('/images/arrow-down.svg')",
+        'arrow-up': "url('/images/arrow-up.svg')"
       }
     },
   },
